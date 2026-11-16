@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5f0">
+  <meta name="description" content="Ben Schwarcz is a Finance student at Tulane University with interests in music, golf, and the stock market.">
+  <title>Ben Schwarcz — Finance Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#home" aria-label="Ben Schwarcz, home">BS<span>.</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+        <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+        <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.4A8.5 8.5 0 0 1 8.6 3.8 8.5 8.5 0 1 0 20.2 15.4Z"/></svg>
+        <span class="theme-label">Dark mode</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Finance student · Tulane University</p>
+          <h1 id="hero-title">Ben<br><span>Schwarcz.</span></h1>
+          <p class="hero-intro">Curious about markets, motivated by new ideas, and always making room for music and a round of golf.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#about">Get to know me <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Decorative abstract illustration inspired by financial market charts" role="img">
+          <div class="art-topline"><span>LOOKING AHEAD</span><span class="art-mark" aria-hidden="true">✳</span></div>
+          <div class="chart-label">Curiosity<br>in motion<span class="chart-period">— always learning</span></div>
+          <svg class="chart" viewBox="0 0 500 230" fill="none" aria-hidden="true" focusable="false">
+            <path class="chart-grid" d="M0 45H500M0 105H500M0 165H500M55 0V230M155 0V230M255 0V230M355 0V230M455 0V230"/>
+            <path class="chart-area" d="M0 196C44 184 55 146 96 159s53 4 77-37 47 8 77-9 47-68 81-48 54 38 82 8 54-22 87-53v210H0V196Z"/>
+            <path class="chart-line" d="M0 196C44 184 55 146 96 159s53 4 77-37 47 8 77-9 47-68 81-48 54 38 82 8 54-22 87-53"/>
+            <circle class="chart-point" cx="413" cy="73" r="6"/>
+          </svg>
+          <div class="art-bottom"><span>NEW ORLEANS, LA</span><span>29°57′N 90°04′W</span></div>
+          <span class="art-orbit orbit-one" aria-hidden="true"></span><span class="art-orbit orbit-two" aria-hidden="true"></span>
+        </div>
+      </div>
+      <div class="container hero-foot"><span>STUDENT · THINKER · WORK IN PROGRESS</span><a href="#about" aria-label="Scroll to About section">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="container section-grid">
+        <div class="section-heading"><p class="eyebrow">01 / A LITTLE ABOUT ME</p><h2 id="about-title">Learning with<br>an open mind.</h2></div>
+        <div class="about-copy">
+          <p class="lead">I’m Ben, a Finance student at Tulane University with a genuine interest in how markets work and what makes people tick.</p>
+          <p>I like following the stock market, spending time around music, and getting out for a round of golf. I’m still figuring out where my interests will take me, and I’m excited to keep learning, meet thoughtful people, and find opportunities to put that curiosity to work.</p>
+          <p class="personal-note"><span aria-hidden="true">✳</span> Based in New Orleans, Louisiana</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-heading section-heading-wide"><div><p class="eyebrow">02 / WHAT I'M UP TO</p><h2 id="experience-title">Experience &amp; activities.</h2></div><p class="section-aside">A few things I’m exploring<br>while I’m at Tulane.</p></div>
+        <div class="card-grid">
+          <!-- PERSONALIZE: Replace these starter cards with real roles, organizations, projects, or activities when ready. -->
+          <article class="info-card">
+            <span class="card-number">01</span><span class="card-icon" aria-hidden="true">↗</span>
+            <p class="card-kicker">ACADEMICS</p><h3>Finance at Tulane</h3>
+            <p>Building a foundation in finance and exploring how businesses and markets make decisions.</p>
+            <span class="card-meta">Tulane University · Student</span>
+          </article>
+          <article class="info-card">
+            <span class="card-number">02</span><span class="card-icon" aria-hidden="true">◎</span>
+            <p class="card-kicker">PERSONAL INTEREST</p><h3>Following the markets</h3>
+            <p>Keeping up with the stock market and learning more about the ideas and forces behind it.</p>
+            <span class="card-meta">Independent interest</span>
+          </article>
+          <article class="info-card card-placeholder">
+            <span class="card-number">03</span><span class="card-icon" aria-hidden="true">＋</span>
+            <p class="card-kicker">YOUR NEXT CHAPTER</p><h3>Room to grow</h3>
+            <p><strong>Personalize this card:</strong> Add an internship, student organization, class project, or other experience when you’re ready.</p>
+            <span class="card-meta">An opportunity to add your story</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section interests-section" id="interests" aria-labelledby="interests-title">
+      <div class="container interests-layout">
+        <div class="section-heading"><p class="eyebrow">03 / CURIOSITY OUTSIDE CLASS</p><h2 id="interests-title">Things I’m<br>into.</h2><p class="section-aside">Interests, not a list of claimed professional skills.</p></div>
+        <div class="interest-content">
+          <p class="lead">A few subjects I enjoy spending time with.</p>
+          <ul class="tag-list" aria-label="Personal interests">
+            <li>Finance</li><li>Stock market</li><li>Music</li><li>Golf</li><li>New ideas</li>
+          </ul>
+          <p class="tag-note">Always open to discovering something new.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <p class="eyebrow">04 / SAY HELLO</p><h2 id="contact-title">Let’s start<br>a conversation.</h2>
+        <p class="contact-copy">Interested in connecting? I’d be glad to hear from you. Add your contact details below before sharing this page.</p>
+        <!-- PERSONALIZE: Replace the bracketed email and LinkedIn placeholders. Add links only after you have real destinations. -->
+        <div class="contact-details">
+          <div class="contact-item"><span class="contact-label">EMAIL</span><span class="contact-value">[Add your email address]</span></div>
+          <div class="contact-item"><span class="contact-label">LINKEDIN</span><span class="contact-value">[Add your LinkedIn profile]</span></div>
+        </div>
+        <p class="placeholder-note">Contact details are placeholders until updated.</p>
+      </div>
+      <div class="container footer"><a class="wordmark" href="#home" aria-label="Back to top">BS<span>.</span></a><p>Designed with care · New Orleans, LA</p><a class="back-top" href="#home">BACK TO TOP ↑</a></div>
+    </section>
+  </main>
+</body>
+</html>
